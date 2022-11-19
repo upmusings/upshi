@@ -6,7 +6,7 @@ This site is set in [Valkyrie](https://mbtype.com/fonts/valkyrie/), built with 
 
 Valkyrie is a humanist typeface made by [Matthew Butterick](https://mbtype.com/bio.html) that has a beautiful calligraphic feel. In order to really appreciate it and improve this site's typography, I've enabled ligatures and kerning + typographic features being controlled via CSS as well, you can view the source and poke around.
 
-As for content management, I use Jekyll's static site generator cause [it works seamlessly with GitHub Pages](https://jekyllrb.com/docs/github-pages/). Changes are tracked by Git and every time I push, thus no headache of having to deploy the built files to a separate repo or branch.
+For content management, I use Jekyll's static site generator cause [it works seamlessly with GitHub Pages](https://jekyllrb.com/docs/github-pages/). Changes are tracked by Git and every time I push, thus no headache of having to deploy the built files to a separate repo or branch.
 
 Blog also supports title-less posts by design, making it easy + efficient to get thoughts out without stewing over an appropriate title. This also works really well for integrating with Micro.blog. 
 
