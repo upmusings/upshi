@@ -14,6 +14,6 @@ Blog also supports title-less posts by design, making it easy + efficient to get
 >
 - HTML is stressful, I’d rather write in [Markdown.](https://daringfireball.net/projects/markdown/)
 - Recommended: [“The Uninhabitable Earth”](https://www.theguardian.com/books/2019/feb/27/the-uninhabitable-earth-review-david-wallace-wells) by David Wallace-Wells. Important and horrifying.
-- Journal in [iPhone notes](). Noting down thoughts, how dull they might be.
+- Journal viz [iPhone notes](). Noting down thoughts, how dull they might be.
 - Am a big fan of the [Inzovu Curve](http://inzovucurve.org/)
 - Check this cool video with [Trump & Co singing](https://youtu.be/Lfa5WvqBSq4) 
