@@ -1,73 +1,64 @@
 ---
-title: Words
-id_attribute: words
+layout: default
 ---
 
+<header class="header">
+  <div class="container">
+    <h1 class="logo"><a href="{{ site.url }}">{{ site.title }}</a></h1>
+    <nav class="nav">
+      <ul>
+        <li><a href="{{ site.url }}">Home</a></li>
+        <li><a href="{{ site.url }}/about">About</a></li>
+        <li><a href="{{ site.url }}/categories">Categories</a></li>
+        <li><a href="{{ site.url }}/archive">Archive</a></li>
+        <li><a href="{{ site.url }}/search">Search</a></li>
+        <li><a href="{{ site.github.url }}"><i class="fab fa-github"></i></a></li>
+        <li><a href="{{ site.twitter.url }}"><i class="fab fa-twitter"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158309270-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<main class="main">
+  <div class="container">
+    <div class="row">
+      {% for post in paginator.posts %}
+        <div class="col-md-4">
+          <div class="post">
+            <a href="{{ post.url }}">
+              <h2 class="post-title">{{ post.title }}</h2>
+            </a>
+            <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+            <p class="post-excerpt">{{ post.excerpt | strip_html }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    {% if paginator.total_pages > 1 %}
+      <div class="pagination">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+        {% else %}
+          <span class="previous">Previous</span>
+        {% endif %}
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+        {% else %}
+          <span class="next">Next</span>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+</main>
 
-  gtag('config', 'UA-158309270-1');
-</script>
+<footer class="footer">
+  <div class="container">
+    <nav class="nav">
+      <ul>
+        <li><a href="{{ site.github.url }}"><i class="fab fa-github"></i></a></li>
+        <li><a href="{{ site.twitter.url }}"><i class="fab fa-twitter"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
 
-{% for post in paginator.posts limit:5 %}
-<section>
-	<header>
-		
-		<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101245280);</script>
-<script async src="//static.getclicky.com/js"></script>
-
-		{% seo %}
-	
-		{% if post.title != '' %}
-		<h1><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.link %}<span class="external-link-arrow">→</span>{% endif %}</h1>
-		{% endif %}
-
-		<time datetime="{{ post.date }}"><a href="{{ post.url }}">{{ post.date | date_to_string }} <span>∞</span></a></time>
-	</header>
-		{{ post.excerpt }}
-		{% if post.content contains '<!-- more -->' %}
-		<a href="{{ post.url }}"></a>
-		{% endif %}
-</section>
-{% endfor %}
-<!-- Pagination links -->
-
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-	<br>
-   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer Posts</a>
-  {% endif %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &raquo;</a>
-  {% endif %}
-</div>
-{% endif %}
-
-<style>
-	.pagination a, .pagination span {
-    padding: 2px 18px;
-    border:  1px solid #eee;
-    margin-left: -2px;
-    margin-right: -2px;
-    background-color: #ffffff;
-    display: inline-block;
-  }
-
-.pagination a {    
-    &:hover {
-        background-color: #f1f1f1;
-        color: #333;
-    }
- }
-
-.pagination {
-    text-align: center;
- }
-</style>
