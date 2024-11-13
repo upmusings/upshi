@@ -1,11 +1,12 @@
 ---
-title: 4 years after. (Part 1)
+title: 4 years after - V.01
 description: long haul from self
 image: https://raw.githubusercontent.com/upmusings/upshift/master/images/onions.jpg
 date: 2024-11-13 09:15:08 +0300
 ---
 <!-- more -->
 <br>
+this post is a work in progress. cause isn't life the same?
 <b>1. Relationships > everything</b>
 
 <b>2. Shiny objects make us duller:</b>
