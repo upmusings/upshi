@@ -7,49 +7,15 @@ date: 2024-11-13 09:15:08 +0300
 <!-- more -->
 <br>
 this post is a work in progress. cause isn't life the same?
-<b>1. Relationships > everything</b>
+<br>
+Well, one survives that, no matter how… You survive this and in some terrible way, which I suppose no one can ever describe, you are compelled, you are corralled, you are bullwhipped into dealing with whatever it is that hurt you.
 
-<b>2. Shiny objects make us duller:</b>
+And what is crucial here is that if it hurt you, that is not what’s important. Everybody’s hurt.
 
-The grass is always greener until you're standing on it. "No" is still the highest ROI word in my vocabulary.
+What is important, what corrals you, what bullwhips you, what drives you, torments you, is that you must find some way of using this to connect you with everyone else alive. This is all you have to do it with.
 
-<b>3. The world is very, very big:</b>
+You must understand that your pain is trivial except insofar as you can use it to connect with other people’s pain; and insofar as you can do that with your pain, you can be released from it, and then hopefully it works the other way around too; insofar as I can tell you what it is to suffer, perhaps I can help you to suffer less.
 
-Make something work for one person (could also be yourself), then work on distribution.
+Then, you make — oh, fifteen years later, several thousand drinks later, two or three divorces, God knows how many broken friendships and an exile of one kind or another — some kind of breakthrough, which is your first articulation of who you are: that is to say, your first articulation of who you suspect we all are.
 
-<b>4. You can't please everyone:
-
-If you could, there would be no point anyway - it's tough when someone doesn't love your work but it's how markets function. 
-
-Plus its like in the boxing, the blows hit harder in the early rounds, just keep getting up.
-
-
-<b>5. Rest works: ( So do noon naps, and weekly rest or whatever rituals you do)
-
-<b>6. The price of a good lesson:
-
-We trust a few people or ourselves too much even where we shouldn't. Often this lead to some decent small sized losses as a result.
-
-Too bad it seems (to me) that these mistakes don't stop until the price you pay is so significant you'll never forget it.... (like losing a life?)
-
-<b>7. Live for (in) today, not one day. The process far outweighs the outcome in all parameters.
-
-<b>8. Progress isn't linear:
-
-Especially when you have a little bit of leverage. One day of inspired execution can generate 100x the results of 30 days of uninspired grinding.
-
-<b>9. Almost everyone is reasonable: 
-
-Practice a little bit of empathy and you'll realize most people are just tired and busy, but incredibly forgiving of honest mistakes.
-
-
-<b>10. Everyone you admire is still figuring it out: 
-
-I had the opportunity to get to know people I genuinely thought were a different species a couple of years ago. 
-
-They aren't. Everyone is trying their best, and those ahead of you are just riding a good guess they made. A reminder not to wait for someone to hand you their map.  Draw your own map.
-
-
-
-Cheers to a new year! 
-And all the afterthoughts it's going to bring 😃
+_“The sole purpose of human existence is to kindle a light in the darkness of mere being”_  — Carl Jung.😃
