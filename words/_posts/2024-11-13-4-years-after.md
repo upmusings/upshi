@@ -4,11 +4,9 @@ description: long haul from self
 image: https://raw.githubusercontent.com/upmusings/upshift/master/images/or.png
 date: 2024-11-13 09:15:08 +0300
 ---
-<!-- more -->
 <br>
-
 Well, one survives that, no matter how… You survive this and in some terrible way, which I suppose no one can ever describe, you are compelled, you are corralled, you are bullwhipped into dealing with whatever it is that hurt you.
-
+<!-- more -->
 And what is crucial here is that if it hurt you, that is not what’s important. **Everybody’s hurt.**
 
 What is important, what corrals you, what bullwhips you, what drives you, torments you, is that you must find some way of using this to connect you with everyone else alive. This is all you have to do it with.
