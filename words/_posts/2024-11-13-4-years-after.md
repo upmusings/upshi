@@ -1,6 +1,6 @@
 ---
 title: 4 years after.
-description: long haul from self
+description:
 image: https://raw.githubusercontent.com/upmusings/upshift/master/images/or.png
 date: 2024-11-13 09:15:08 +0300
 ---
