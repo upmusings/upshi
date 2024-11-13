@@ -1,7 +1,7 @@
 ---
 title: 4 years after - V.01
 description: long haul from self
-image: https://raw.githubusercontent.com/upmusings/upshift/master/images/onions.jpg
+image: https://raw.githubusercontent.com/upmusings/upshift/master/images/or.png
 date: 2024-11-13 09:15:08 +0300
 ---
 <!-- more -->
