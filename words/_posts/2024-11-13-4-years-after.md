@@ -6,8 +6,9 @@ date: 2024-11-13 09:15:08 +0300
 ---
 <!-- more -->
 <br>
-this post is a work in progress. cause isn't life the same?
-<br>
+This post is a work in progress. Cause isn't life the same?
+</br>
+
 Well, one survives that, no matter how… You survive this and in some terrible way, which I suppose no one can ever describe, you are compelled, you are corralled, you are bullwhipped into dealing with whatever it is that hurt you.
 
 And what is crucial here is that if it hurt you, that is not what’s important. Everybody’s hurt.
