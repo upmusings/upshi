@@ -41,33 +41,53 @@ id_attribute: words
 <div class="pagination">
 	<br>
    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer Posts</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-button">« Newer Posts</a>
   {% endif %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &raquo;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-button">Older Posts »</a>
   {% endif %}
 </div>
 {% endif %}
 
 <style>
-	.pagination a, .pagination span {
-    padding: 2px 18px;
-    border:  1px solid #eee;
-    margin-left: -2px;
-    margin-right: -2px;
-    background-color: #ffffff;
-    display: inline-block;
-  }
-
-.pagination a {    
-    &:hover {
-        background-color: #f1f1f1;
-        color: #333;
-    }
- }
-
-.pagination {
+	.pagination {
     text-align: center;
- }
+}
+
+.pagination-button {
+    background-color: red; /* Red background */
+    color: white; /* White text color */
+    padding: 6px 15px; /* Smaller padding for a compact button */
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 20px; /* Rounded corners */
+    font-size: 14px; /* Smaller text size */
+    margin: 5px; /* Space between buttons */
+    display: inline-block; /* Align buttons in a row */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+    border: none; /* No border */
+}
+
+.pagination-button:hover {
+    background-color: darkred; /* Dark red on hover */
+}
+
+.pagination-button:active {
+    background-color: darkred; /* Dark red when the button is clicked */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .pagination-button {
+        padding: 5px 12px; /* Slightly smaller padding on medium screens */
+        font-size: 12px; /* Even smaller text size */
+    }
+}
+
+@media (max-width: 480px) {
+    .pagination-button {
+        padding: 4px 10px; /* Smallest padding on very small screens */
+        font-size: 10px; /* Smaller text size for small screens */
+    }
+}
 </style>
