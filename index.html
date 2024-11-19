@@ -56,29 +56,29 @@ id_attribute: words
 }
 
 .pagination-button {
-    background-color: red; /* Red background */
+    background-color: transparent; /* Transparent background */
     color: blue; /* Solid blue text color */
     padding: 6px 15px; /* Smaller padding for a compact button */
     text-decoration: none; /* Remove underline from links */
-    border-radius: 20px; /* Rounded corners */
+    border-radius: 50%; /* Round corners (circular button) */
     font-size: 14px; /* Smaller text size */
     margin: 5px; /* Space between buttons */
     display: inline-block; /* Align buttons in a row */
-    transition: background-color 0.3s ease; /* Smooth transition for hover */
-    border: none; /* No border */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover */
+    border: 2px solid blue; /* Blue border */
     box-shadow: none; /* No shadows */
 }
 
 .pagination-button:hover {
-    background-color: darkred; /* Dark red on hover */
-    color: blue; /* Keep text blue on hover */
-    box-shadow: none; /* No shadow on hover */
+    background-color: transparent; /* Keep transparent background on hover */
+    color: darkblue; /* Change text color to dark blue on hover */
+    border-color: darkblue; /* Change border to dark blue on hover */
 }
 
 .pagination-button:active {
-    background-color: darkred; /* Dark red when the button is clicked */
-    color: blue; /* Keep text blue when clicked */
-    box-shadow: none; /* No shadow when clicked */
+    background-color: transparent; /* Keep transparent background when clicked */
+    color: darkblue; /* Change text color to dark blue when clicked */
+    border-color: darkblue; /* Change border to dark blue when clicked */
 }
 
 /* Responsive styles */
@@ -96,4 +96,5 @@ id_attribute: words
     }
 }
 </style>
+
 
