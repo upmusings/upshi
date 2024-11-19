@@ -57,13 +57,19 @@ id_attribute: words
   .pagination-btn {
     padding: 6px 14px; /* Smaller button */
     font-size: 14px;   /* Smaller text */
-    border: 1px solid #ddd;
-    background-color: #ffffff;
+    border: 1px solid #ddd; /* Border only */
     color: #333;
     text-decoration: none; /* Remove underline */
     display: inline-block;
     border-radius: 20px; /* Rounded corners */
+    background-color: transparent; /* No background */
   }
 
   /* Responsive design */
   @media (max-width: 600px) {
+    .pagination-btn {
+      padding: 4px 10px;  /* Smaller padding on mobile */
+      font-size: 12px;    /* Adjust font size on mobile */
+    }
+  }
+</style>
