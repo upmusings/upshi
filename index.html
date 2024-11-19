@@ -41,11 +41,11 @@ id_attribute: words
 <div class="pagination">
 	<br>
    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-button">« Newer Posts</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-button">⏪</a>
   {% endif %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-button">Older Posts »</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-button">⏩</a>
   {% endif %}
 </div>
 {% endif %}
@@ -58,10 +58,10 @@ id_attribute: words
 .pagination-button {
     background-color: transparent; /* Transparent background */
     color: blue; /* Solid blue text color */
-    padding: 6px 15px; /* Smaller padding for a compact button */
+    padding: 10px 15px; /* Adjust padding for emoji size */
     text-decoration: none; /* Remove underline from links */
     border-radius: 50%; /* Round corners (circular button) */
-    font-size: 14px; /* Smaller text size */
+    font-size: 24px; /* Larger font size for emojis */
     margin: 5px; /* Space between buttons */
     display: inline-block; /* Align buttons in a row */
     transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover */
@@ -84,15 +84,15 @@ id_attribute: words
 /* Responsive styles */
 @media (max-width: 768px) {
     .pagination-button {
-        padding: 5px 12px; /* Slightly smaller padding on medium screens */
-        font-size: 12px; /* Even smaller text size */
+        padding: 8px 12px; /* Slightly smaller padding on medium screens */
+        font-size: 20px; /* Slightly smaller font size for emojis */
     }
 }
 
 @media (max-width: 480px) {
     .pagination-button {
-        padding: 4px 10px; /* Smallest padding on very small screens */
-        font-size: 10px; /* Smaller text size for small screens */
+        padding: 6px 10px; /* Smaller padding on very small screens */
+        font-size: 18px; /* Smaller font size for small screens */
     }
 }
 </style>
