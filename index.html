@@ -41,11 +41,11 @@ id_attribute: words
 <div class="pagination">
 	<br>
    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-button">⏪</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-button">« Newer Posts</a>
   {% endif %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-button">⏩</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-button">Older Posts »</a>
   {% endif %}
 </div>
 {% endif %}
@@ -56,45 +56,39 @@ id_attribute: words
 }
 
 .pagination-button {
-    background-color: transparent; /* Transparent background */
-    color: blue; /* Solid blue text color */
-    padding: 10px 15px; /* Adjust padding for emoji size */
+    background-color: red; /* Red background */
+    color: white; /* White text color */
+    padding: 6px 15px; /* Smaller padding for a compact button */
     text-decoration: none; /* Remove underline from links */
-    border-radius: 50%; /* Round corners (circular button) */
-    font-size: 24px; /* Larger font size for emojis */
+    border-radius: 20px; /* Rounded corners */
+    font-size: 14px; /* Smaller text size */
     margin: 5px; /* Space between buttons */
     display: inline-block; /* Align buttons in a row */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover */
-    border: 2px solid blue; /* Blue border */
-    box-shadow: none; /* No shadows */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+    border: none; /* No border */
 }
 
 .pagination-button:hover {
-    background-color: transparent; /* Keep transparent background on hover */
-    color: darkblue; /* Change text color to dark blue on hover */
-    border-color: darkblue; /* Change border to dark blue on hover */
+    background-color: darkred; /* Dark red on hover */
 }
 
 .pagination-button:active {
-    background-color: transparent; /* Keep transparent background when clicked */
-    color: darkblue; /* Change text color to dark blue when clicked */
-    border-color: darkblue; /* Change border to dark blue when clicked */
+    background-color: darkred; /* Dark red when the button is clicked */
 }
 
 /* Responsive styles */
 @media (max-width: 768px) {
     .pagination-button {
-        padding: 8px 12px; /* Slightly smaller padding on medium screens */
-        font-size: 20px; /* Slightly smaller font size for emojis */
+        padding: 5px 12px; /* Slightly smaller padding on medium screens */
+        font-size: 12px; /* Even smaller text size */
     }
 }
 
 @media (max-width: 480px) {
     .pagination-button {
-        padding: 6px 10px; /* Smaller padding on very small screens */
-        font-size: 18px; /* Smaller font size for small screens */
+        padding: 4px 10px; /* Smallest padding on very small screens */
+        font-size: 10px; /* Smaller text size for small screens */
     }
 }
 </style>
-
 
